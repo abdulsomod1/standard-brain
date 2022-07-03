@@ -1,0 +1,177 @@
+/* Example of @import use
+This imports the `reset.css` file */
+@import './reset.css';
+
+/* BASE STYLES */
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+/* end base stle */
+
+header {
+  display: flex;
+  height: 100%;
+  max-width: 300px;
+}
+
+#header-img {
+  margin-left: 50px;
+  width: 20%;
+}
+
+#nav-bar {
+  display: flex;
+  position: fixed;
+  justify-content: space-between;
+  background-color: #eee;
+  top: 0;
+  padding-top: 40px;
+}
+
+.class {
+  width: 20vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 0%;
+  padding: 0%;
+  color: black;
+}
+
+.good {
+  list-style: none;
+  font-weight: 400;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+}
+
+body {
+  text-align: center;
+  background-color: #eee;
+  padding-top: 100px;
+}
+
+.style {
+  width: 20%;
+  height: 20px;
+  margin-left: 40%;
+  margin-bottom: auto;
+  color: burlywood;
+  background-color: white;
+  margin-right: 50%;
+  border-color: black;
+}
+
+.stylesheet {
+  margin-right: 45%;
+}
+
+.change {
+  background-color: #f1c40f;
+  border: none;
+  font-size: 100%;
+  font-family: 'Lato', sans-serif;
+  font-weight: 900;
+  width: 100px;
+  height: 100%;
+}
+
+.edit {
+  margin-left: 20%;
+  margin-right: 15%;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
+
+.Edit {
+  margin-right: 60%;
+  font-family: 'Lato', sans-serif;
+}
+
+.reuse {
+  height: 100px;
+  width: 100px;
+  margin-left: 10%;
+  margin-right: -10%;
+}
+
+.product {
+  border: 1px solid #000;
+  text-align: center;
+}
+
+.undone {
+  display: flex;
+}
+
+/* MEDIA QUIRES */
+
+@media screen and (max-width: 700px) {
+  @media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
+}
+
+.changes {
+  margin-bottom: 10%;
+  margin-right: 5%;
+  text-align: right;
+  margin-top: 5%;
+  width: 50%;
+  height: 50%;
+  font-family: 'Lato', sans-serif;
+}
+
+.level {
+  background-color: #ddd;
+  color: black;
+  padding: 15px 0;
+  width: 100%;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.btn {
+  background-color: #f1c40f;
+  width: 50%;
+  height: 30px;
+  border: none;
+  margin: auto;
+  margin-bottom: 20px;
+  display: block;
+  justify-content: space-between;
+}
+
+footer {
+  margin-top: 30px;
+  background-color: #ddd;
+  padding: 20px;
+  display: block;
+  margin-left: 10%;
+  margin-right: 10%;
+  font-family: 'Lato', sans-serif;
+}
+
+.ade {
+  display: flex;
+  margin-left: 60%;
+}
+
+.normal {
+  margin-top: 5px;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 0.9em;
+  color: #444;
+}
+
+.size {
+  margin: 2%;
+}
